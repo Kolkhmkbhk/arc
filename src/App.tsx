@@ -1,4 +1,5 @@
 import { type FormEvent, useEffect, useState } from "react";
+import logoImage from './assets/color-logo.jpg';
 
 const navItems = [
   { label: "О нас", href: "#about" },
