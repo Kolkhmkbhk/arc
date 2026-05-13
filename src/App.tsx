@@ -357,7 +357,7 @@ a { color: inherit; }
 .hero-logo-row { display: flex; align-items: center; gap: 18px; }
 .hero-logo-row svg { animation: markFloat 4.8s ease-in-out infinite; }
 .hero h1 {
-  margin: 0;
+  margin-bottom: 5%;
   font-size: clamp(4.2rem, 15vw, 13rem);
   line-height: 0.78;
   letter-spacing: -0.085em;
@@ -746,9 +746,6 @@ export default function App() {
           </div>
           <div className="hero-content">
             <div className="hero-brand">
-              <div className="hero-logo-row">
-                <BureauLogo />
-              </div>
               <h1>
                 Архитек<span>Туры</span>
               </h1>
